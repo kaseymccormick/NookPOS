@@ -9,7 +9,9 @@ import { UtilityService } from 'src/app/common/utility.service';
 })
 export class Step1Component implements OnInit {
   public canProgress;
-  constructor(public controlContainer: ControlContainer, private utilityService: UtilityService) {
+  constructor(
+    public controlContainer: ControlContainer,
+    private utilityService: UtilityService) {
   }
 
   ngOnInit() {
